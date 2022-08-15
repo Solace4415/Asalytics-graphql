@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: var(--font-family);
+    background: #F2FBF6;
+}
+
+.app {
+    margin: 2rem;
+}

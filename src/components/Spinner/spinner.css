@@ -1,0 +1,19 @@
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.puff {
+  margin: 100px;
+}
+
+.spinner-text {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+}

@@ -1,0 +1,75 @@
+.data-asas{
+  text-align: center;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.fetchData {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #b7becc;
+  padding: 20px;
+  width: 18%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.fetchData-img {
+  width: 30px;
+  height: 57.39px;
+}
+
+.fetchData-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000000;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.fetchData-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  background: #6fd791;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  width: 68px;
+  height: 31px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+}
+
+.fetchData-button.red {
+  padding: 8px;
+  width: 82px;
+  height: 31px;
+  background: #bc3131;
+}
+
+@media screen and (max-width: 990px) {
+  .fetchData {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .fetchData {
+    width: 100%;
+  }
+}
