@@ -23,7 +23,7 @@ const FetchData = () => {
         Algorand Standard Asset on the Algorand Protocol(ASAs)
       </p>
       {loading ? (
-        <Spinner message={"Loading Data...."} />
+        <Spinner message={"Loading ASAs..."} />
       ) : (
         <div className="data">
           {data?.asalist?.results?.map((props: result) => (
